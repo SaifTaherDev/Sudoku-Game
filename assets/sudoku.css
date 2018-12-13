@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    background: rgba(0, 0, 50, 0.5);
+}
+canvas{
+    position: absolute;
+    border: 1px solid black;
+    background: rgba(150, 150, 0, 0.5);
+}
+span{
+    font-family: calibri;
+    font-size:2em;
+    background:rgba(150, 150, 0, 0.5);
+    padding:0.25em;
+    border-radius:0.25em;
+    position: absolute;
+    text-align:center;
+    cursor:pointer;
+    transition-duration: 0.25s;
+}
+span:hover{
+    background:rgba(150, 150, 0, 1);
+}
